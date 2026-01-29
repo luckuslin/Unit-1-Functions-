@@ -3,27 +3,25 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
+def square():
+ for i in range(4):
+    t.forward(100)
+    t.left(90)
 
-def square(x):
-    t.forward(x)
+def triangle():
+   for i in range(3):
+     t.forward(100)
+     t.left(120)
+  
+def littlesomething ():
+  t.speed(50)
+  for i in range(60):
+    t.forward(100)
     t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-def squa(x):
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-square(100)
-squa(200)
-square(400)
-squa(300)
-squa(200)
-square(100)
+    t.left(5)
+  
+     
+littlesomething()
+
+
 turtle.done()
